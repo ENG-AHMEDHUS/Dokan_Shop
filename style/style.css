@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "Poppins", sans-serif;
+}
+nav li a {
+  transition: 0.6s;
+}
+nav li a:hover {
+  background-color: indianred !important;
+  color: white !important;
+  font-size: 0.9em;
+  border-radius: 25%;
+  text-transform: uppercase;
+  transition: 0.6s;
+  font-weight: 400;
+}
+.dropdown-menu {
+  background-color: rgb(43 48 52);
+  border: none;
+}
+.dropdown-menu li a {
+  transition: 0.6s;
+}
+.dropdown-menu li a:hover {
+  background-color: indianred !important;
+  color: white !important;
+  font-size: 0.9em;
+  border-radius: 0%;
+  text-transform: uppercase;
+  font-weight: 400;
+  transform: translateX(2em);
+}
+.space_between {
+  padding: 2em;
+}
+.main,
+#latest_products,
+#hot_deals ,main{
+  padding-top: 3.5em;
+}
+.main img {
+  filter: brightness(0.4);
+}
+.fa-heart:hover,
+.fa-cart-plus:hover {
+  color: indianred;
+  cursor: pointer;
+}
+.content h1,
+.content p {
+  letter-spacing: 0.1em;
+}
+.img_deal1,
+.img_deal2,
+.img_deal3 {
+  position: relative;
+}
+.img_deal1::after {
+  content: "enjoy 50% discount on black friday";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 1em;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  left: 15%;
+  top: 10%;
+  height: 80%;
+  width: 70%;
+  background-color: rgba(205, 92, 92, 80%);
+  color: white;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.6s;
+}
+.img_deal2::after {
+  content: "enjoy up to 70% sale on weekend";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 1em;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  left: 15%;
+  top: 10%;
+  height: 80%;
+  width: 70%;
+  background-color: rgba(205, 92, 92, 80%);
+  color: white;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.6s;
+}
+.img_deal3::after {
+  content: "enjoy free delivery while register";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 1em;
+  font-size: 2.6rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  left: 15%;
+  top: 10%;
+  height: 80%;
+  width: 70%;
+  background-color: rgba(205, 92, 92, 80%);
+  color: white;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.6s;
+}
+.img_deal1:hover::after,
+.img_deal2:hover::after,
+.img_deal3:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+.product button,
+form .bttn button {
+  background-color: indianred;
+  transition: 0.6s;
+}
+.product button:hover,
+form .bttn button:hover {
+  transform: scale(1.2);
+  background-color: rgb(180, 81, 81);
+}
+textarea {
+  padding: 0.5em;
+  height: 33vh;
+}
+footer iconn {
+  font-size: 2em !important;
+}
+footer a,
+footer h4 {
+  text-decoration: none;
+  color: white;
+}
+footer .top a {
+  font-size: small;
+}
+footer .top a:hover {
+  color: indianred;
+}
+.soicial_links a {
+  font-size: x-large;
+}
+.fa-facebook-f:hover {
+  color: royalblue !important;
+}
+.fa-twitter:hover {
+  color: deepskyblue !important;
+}
+.fa-whatsapp:hover {
+  color: limegreen;
+}
+.fa-youtube:hover {
+  color: crimson;
+}
+footer .fa-user-secret {
+  font-size: 4.5em !important;
+}
+footer hr {
+  height: 0.2em !important;
+}
+footer h4 {
+  font-size: 1.3em;
+}
+.text-decoration-none {
+  opacity: 0.8;
+  transition: 0.6s;
+}
+.text-decoration-none:hover {
+  text-decoration: underline !important;
+  opacity: 1;
+}
+.aboutus {
+  background: url(../images/bg-about.png);
+  background-size: cover;
+  height: 60vh;
+}
+.fonts {
+  font-size: 3.3em !important;
+  font-weight: 600;
+}
+.basis-35 {
+  flex-basis: 35%;
+}
+hr {
+  height: 0.2em;
+  background: black;
+}
+.rounded-circle i {
+  color: white !important;
+  transition: 0.6s;
+}
+.rounded-circle {
+  transition: 0.6s;
+}
+.rounded-circle:hover {
+  background-color: rgb(215, 211, 211) !important;
+}
+.rounded-circle:hover i {
+  color: black !important;
+}
+.w-310 {
+  width: 310px;
+}
+.card {
+  border-top: 0.2em solid #efeded;
+  border-right: 0.2em solid darkgrey;
+  border-bottom: 0.2em solid darkgrey;
+  border-left: 0.2em solid #efeded;
+}
+.card-rev {
+  border-bottom: 0.4em solid #efeded;
+  border-left: 0.4em solid darkgrey;
+  border-top: 0.4em solid darkgrey;
+  border-right: 0.4em solid #efeded;
+}
+.mens,
+.womens,
+.kids,
+.accs {
+  background: url(../images/bg-men.png);
+  background-size: cover;
+  height: 57vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+.cards {
+  transition: 0.6s;
+  border-bottom: 0.05em solid darkgrey;
+  border-left: 0.1em solid darkgrey;
+  border-top: 0.1em solid darkgrey;
+  border-right: 0.05em solid darkgrey;
+}
+.cards:hover {
+  background-color: #4d4b4b;
+  transform: scale(1.06);
+  color: white;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.cards:hover .text-body-tertiary {
+  color: #c5c5c5 !important;
+}
+.w-18 {
+  width: 18em;
+}
+@media screen and (max-width: 992px) {
+  .img_deal1:hover::after,
+  .img_deal2:hover::after,
+  .img_deal3:hover::after {
+    font-size: 1.6em;
+  }
+  .fonts {
+    font-size: xx-large !important;
+    text-align: center;
+  }
+
+  .abouts .right {
+    margin-left: 0px;
+  }
+  .abouts .left {
+    display: flex;
+    justify-content: end;
+    margin-right: 0%;
+  }
+  .abouts .left img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  p,
+  h4,
+  h3 {
+    text-align: center;
+  }
+  .feed_main button {
+    width: 100%;
+  }
+  .fonting {
+    font-size: xx-small !important;
+  }
+  .centering {
+    text-align: center;
+  }
+
+  .abouts .right {
+    margin-left: 0px;
+    flex-basis: 80% !important;
+  }
+}
