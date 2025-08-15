@@ -302,4 +302,7 @@ hr {
     margin-left: 0px;
     flex-basis: 80% !important;
   }
+    .team img{
+    width: 98%;
+  }
 }
